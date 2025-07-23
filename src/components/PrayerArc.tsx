@@ -2,7 +2,7 @@ import { motion } from 'motion/react'
 
 const prayers = ['Fajr', 'Dhuhr', 'Asr', 'Maghrib', 'Isha']
 
-const radius = 45
+const radius = 50
 const centerX = 50
 const centerY = 50
 
@@ -48,8 +48,8 @@ const PrayerArc = ({ currentPrayer }: { currentPrayer: string }) => {
   })
 
   return (
-    <div className="w-full h-38">
-      <svg viewBox="0 0 100 50" className="w-full h-full mt-6">
+    <div className="w-full h-40 relative">
+      <svg viewBox="0 0 100 40" className="w-full h-full absolute mt-8 border border-zinc-400">
         {segments}
       </svg>
     </div>
