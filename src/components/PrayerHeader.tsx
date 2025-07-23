@@ -8,9 +8,9 @@ const PrayerHeader = ({ nextPrayer }: { nextPrayer: string }) => {
     <div className="flex justify-between items-start">
       <div className="flex items-center space-x-2">
         {prayerIcons[nextPrayer]}
-        <span className="text-lg font-semibold">{nextPrayer}</span>
+        <span className="text-2xl font-semibold">{nextPrayer}</span>
       </div>
-      <div className="rounded-full bg-white/30 px-2 py-1 text-xs font-semibold text-white">
+      <div className="rounded-full bg-white/30 px-2 py-1 mt-1 font-semibold text-white">
         {currentDay}
       </div>
     </div>

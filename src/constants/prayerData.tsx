@@ -2,11 +2,11 @@ import { CloudMoonIcon, SunIcon, CloudSunIcon, SunHorizonIcon, MoonStarsIcon } f
 import type { JSX } from 'react'
 
 export const prayerIcons: Record<string, JSX.Element> = {
-  Fajr: <CloudMoonIcon size={24} weight="bold" />,
-  Dhuhr: <SunIcon size={24} weight="bold" />,
-  Asr: <CloudSunIcon size={24} weight="bold" />,
-  Maghrib: <SunHorizonIcon size={24} weight="bold" />,
-  Isha: <MoonStarsIcon size={24} weight="bold" />,
+  Fajr: <CloudMoonIcon size={28} weight="bold" />,
+  Dhuhr: <SunIcon size={28} weight="bold" />,
+  Asr: <CloudSunIcon size={28} weight="bold" />,
+  Maghrib: <SunHorizonIcon size={28} weight="bold" />,
+  Isha: <MoonStarsIcon size={28} weight="bold" />,
 }
 
 export const prayerGradients: Record<string, string> = {
